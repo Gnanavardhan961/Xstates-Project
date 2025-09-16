@@ -100,8 +100,8 @@ function App() {
       {/* Display selection */}
       {selectedCountry && selectedState && selectedCity && (
         <h2 className="selection-text">
-          You selected: {selectedCity}, {selectedState}, {selectedCountry}
-        </h2>
+         You selected {selectedCity}, {selectedState}, {selectedCountry}
+       </h2>
       )}
     </div>
   );
